@@ -253,16 +253,20 @@ img {
   color: var(--color-rgba);
   line-height: 1.71;
   letter-spacing: 0.03em;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--transition);
 }
 
 .address-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .google-link {
   color: var(--white-color);
+}
+
+.contact-link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
 }
 
 .contact-link:hover,
